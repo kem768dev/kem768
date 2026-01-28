@@ -1,0 +1,8 @@
+﻿blank_issues_enabled: true
+contact_links:
+  - name: GitHub Sponsors
+    url: https://github.com/sponsors/kem768dev
+    about: Support the project via GitHub Sponsors
+  - name: Security Vulnerability
+    url: https://github.com/kem768dev/kem768/security/advisories/new
+    about: Report security vulnerabilities privately
