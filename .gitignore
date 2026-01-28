@@ -1,0 +1,11 @@
+﻿build/
+src/
+*.dll
+*.exe
+*.pdb
+*.db
+bin/
+obj/
+*.user
+*.suo
+.vs/
