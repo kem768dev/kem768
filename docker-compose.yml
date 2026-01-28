@@ -1,0 +1,29 @@
+﻿version: '3.8'
+
+services:
+  kem768:
+    image: kem768dev/kem768:latest
+    container_name: kem768-server
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - LICENSE_DB_PATH=/data/license.db
+    volumes:
+      - kem768-data:/data
+    networks:
+      - kem768-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+volumes:
+  kem768-data:
+    driver: local
+
+networks:
+  kem768-net:
+    driver: bridge
