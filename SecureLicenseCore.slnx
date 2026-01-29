@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LicenseCore.Server/LicenseCore.Server.csproj" />
+    <Project Path="src/LicenseCore.Shared/LicenseCore.Shared.csproj" />
+    <Project Path="src/LicenseCore/LicenseCore.csproj" />
+    <Project Path="src/LicenseTests/LicenseTests.csproj" />
+    <Project Path="src/TestClient/TestClient.csproj" />
+  </Folder>
+</Solution>

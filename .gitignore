@@ -1,11 +1,8 @@
-﻿build/
-src/
-*.dll
-*.exe
-*.pdb
-*.db
-bin/
+﻿bin/
 obj/
 *.user
-*.suo
 .vs/
+.vscode/
+appsettings.Development.json
+*.pfx
+*.key

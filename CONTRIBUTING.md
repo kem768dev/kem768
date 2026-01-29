@@ -1,50 +1,18 @@
-﻿# Contributing to kem768
+# Contributing
 
-Thank you for your interest in contributing to kem768!
+Thanks for your interest in contributing.
 
-## How to Contribute
+## Development setup
+- Install .NET SDK 10.x (or the version specified by the solution).
+- Restore and build:
+  - `dotnet build`
+- Run tests:
+  - `dotnet test`
 
-### Reporting Bugs
+## Pull request guidelines
+- Keep changes focused and well-scoped.
+- Add or update tests for behavior changes.
+- Ensure `dotnet test` passes.
 
-- Use GitHub Issues to report bugs
-- Include steps to reproduce the issue
-- Provide system information (.NET version, OS, etc.)
-- Include relevant logs or error messages
-
-### Suggesting Features
-
-- Open a GitHub Issue with the \enhancement\ label
-- Clearly describe the feature and its use case
-- Explain why this feature would be useful to most users
-
-### Pull Requests
-
-1. Fork the repository
-2. Create a feature branch (\git checkout -b feature/amazing-feature\)
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass (\dotnet test\)
-6. Commit with clear messages (\git commit -m 'Add amazing feature'\)
-7. Push to your fork (\git push origin feature/amazing-feature\)
-8. Open a Pull Request
-
-### Code Style
-
-- Follow standard C# coding conventions
-- Use meaningful variable and method names
-- Add XML documentation comments for public APIs
-- Keep methods focused and concise
-
-### Testing
-
-- Add unit tests for new features
-- Ensure existing tests pass
-- Aim for high code coverage on critical paths
-
-### Security
-
-If you discover a security vulnerability, please email directly instead of using the issue tracker. See [SECURITY.md](SECURITY.md) for details.
-
-## Questions?
-
-Feel free to open an issue for questions or contact via GitHub Sponsors.
+## Reporting issues
+- Use GitHub Issues with clear reproduction steps.
