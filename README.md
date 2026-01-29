@@ -206,7 +206,7 @@ dotnet run --project ./src/TestClient
 
 **NuGet Packages:**
 ```xml
-<PackageReference Include="BouncyCastle.Cryptography" Version="2.4.0" />
+<PackageReference Include="BouncyCastle.Cryptography" Version="2.5.0" />
 <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
 ```
 
@@ -215,7 +215,7 @@ dotnet run --project ./src/TestClient
 - `System.Text.Json` (Serialization)
 - `Microsoft.AspNetCore` (Server)
 
-**Runtime**: .NET 8.0+ (Server), .NET 10.0 (Docker)
+**Runtime**: .NET 10.0 (Server), .NET 10.0 (Docker)
 
 ---
 
