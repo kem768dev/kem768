@@ -354,6 +354,6 @@ Contributions welcome! Please open an issue or pull request.
 
 ---
 
-**Built with**: .NET 8.0 | BouncyCastle 2.4.0 | ASP.NET Core  
+**Built with**: .NET 1.0 | BouncyCastle 2.5.0 | ASP.NET Core  
 **Tested on**: Intel Core i5-2500K (2011)  
 **Status**: ✅ Production-Ready
